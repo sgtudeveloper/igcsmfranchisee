@@ -128,7 +128,7 @@ export default function Footer() {
                   <i class="fas fa-phone me-3 text-success"></i> + 98 188 41 248
                 </p>
                 <p className="text-orange">
-                  <i class="fas fa-print me-3 text-success"></i> + 99 906 17 617
+                  <i class="fas fa-phone me-3 text-success"></i> + 88 600 94 657
                 </p>
               </div>
               {/* <!-- Grid column --> */}
@@ -140,7 +140,7 @@ export default function Footer() {
 
         {/* <!-- Copyright --> */}
         <div
-          class="text-center p-4"
+          class="text-center p-2"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.10)", color: 'green' }}
         >
           © 2024 Copyright: &nbsp;
