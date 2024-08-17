@@ -8,6 +8,7 @@ import "./index.css";
 import Contact from "./Components/Contact";
 import BlogState from "./Context/BlogState";
 import BlogPage from "./Components/BlogPage";
+import BlogTemplate from "./Components/Blogs/BlogTemplate";
 
 function App() {
   return (
@@ -37,13 +38,10 @@ function App() {
             />
             <Route
               path="/blog"
-              element={
-                <>
-                  {/* <Navbar /> */}
-                  <BlogPage/>
-                </>
-              }
-            />
+            >
+              <Route path="/blog" element={<BlogPage/>}/>
+              <Route path="/blog/1" element={<BlogTemplate/>}/>
+              </Route>
           </Routes>
           <Footer />
         </Router>

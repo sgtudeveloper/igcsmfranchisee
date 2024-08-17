@@ -1,6 +1,6 @@
 import React from "react";
-import nafed from "../Asset/Certifications/nafed.jpg";
 import FranchiseeGrowth from "../Asset/Computer Franchisee Banner.png"
+import {Link} from "react-router-dom"
 
 
 const MyComponent = () => {
@@ -14,33 +14,33 @@ const MyComponent = () => {
               <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
                 <div class="col-xs-12 col-md-6">
                   <div class="img-wrapper position-relative bsb-hover-push">
-                    <a href="#!">
-                      <span class="badge rounded-pill text-bg-warning position-absolute top-0 start-0 m-3">
+                    <Link to="/blog/1">
+                      {/* <span class="badge rounded-pill bg-primary text-light position-absolute top-0 start-0 m-3">
                         join franchisee
-                      </span>
+                      </span> */}
                       <img
                         class="img-fluid rounded w-100 h-100 object-fit-cover"
                         loading="lazy"
                         src={FranchiseeGrowth}
                         alt="Sports"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
                   <div>
                     <p class="text-secondary mb-1">Aug 15, 2024</p>
                     <h2 class="h1 mb-3">
-                      <a class="link-dark text-decoration-none" href="#!">
+                      <Link class="link-dark text-decoration-none" to="/blog/1">
                       Benefits of Becoming a IGCSM Franchisee
-                      </a>
+                      </Link>
                     </h2>
                     <p class="mb-4 text-secondary">
                     We are seeking passionate individuals or organizations interested in partnering with IGCSM to expand our mission and contribute to educational empowerment across India. ....
                     </p>
-                    <a class="btn btn-primary" href="#!" target="_blank">
+                    <Link class="btn btn-primary" to="/blog/1" target="_blank">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -51,9 +51,9 @@ const MyComponent = () => {
                 <div class="col-xs-12 col-md-6">
                   <div class="img-wrapper position-relative bsb-hover-push">
                     <a href="#!">
-                      <span class="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">
+                      {/* <span class="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">
                         vocaltional education
-                      </span>
+                      </span> */}
                       <img
                         class="img-fluid rounded w-100 h-100 object-fit-cover"
                         loading="lazy"
@@ -87,9 +87,9 @@ const MyComponent = () => {
                 <div class="col-xs-12 col-md-6">
                   <div class="img-wrapper position-relative bsb-hover-push">
                     <a href="#!">
-                      <span class="badge rounded-pill text-bg-warning position-absolute top-0 start-0 m-3">
+                      {/* <span class="badge rounded-pill text-bg-warning position-absolute top-0 start-0 m-3">
                         Photography
-                      </span>
+                      </span> */}
                       <img
                         class="img-fluid rounded w-100 h-100 object-fit-cover"
                         loading="lazy"

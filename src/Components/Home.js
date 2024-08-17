@@ -146,42 +146,42 @@ export default function Home() {
           <div className="row gy-4">
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={nsdc} alt="" />
+                <img className="shadow-lg" src={nsdc} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={g20} alt="" />
+                <img className="shadow-lg" src={g20} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={skillindia} alt="" />
+                <img className="shadow-lg" src={skillindia} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={msme} alt="" />
+                <img className="shadow-lg" src={msme} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={nafed} alt="" />
+                <img className="shadow-lg" src={nafed} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={pmkvy} alt="" />
+                <img className="shadow-lg" src={pmkvy} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={titp} alt="" />
+                <img className="shadow-lg" src={titp} alt="" />
               </div>
             </div>
             <div className="col-6 col-md-4 col-xl-3 text-center">
               <div className="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 logoimg">
-                <img src={digitalindia} alt="" />
+                <img className="shadow-lg " src={digitalindia} alt="" />
               </div>
             </div>
           </div>
