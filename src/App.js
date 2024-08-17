@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import BlogState from "./Context/BlogState";
 import BlogPage from "./Components/BlogPage";
 import BlogTemplate from "./Components/Blogs/BlogTemplate";
+import Courses from "./Components/Courses";
 
 function App() {
   return (
@@ -33,6 +34,15 @@ function App() {
                 <>
                   {/* <Navbar /> */}
                   <Contact />
+                </>
+              }
+            />
+            <Route
+              path="/courses"
+              element={
+                <>
+                  {/* <Navbar /> */}
+                  <Courses/>
                 </>
               }
             />
