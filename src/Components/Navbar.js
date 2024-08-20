@@ -58,9 +58,9 @@ export default function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#">
+                <Link class="nav-link text-dark" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
                 <Link class="nav-link text-dark" to="/courses">

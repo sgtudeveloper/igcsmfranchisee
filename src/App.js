@@ -10,6 +10,7 @@ import BlogState from "./Context/BlogState";
 import BlogPage from "./Components/BlogPage";
 import BlogTemplate from "./Components/Blogs/BlogTemplate";
 import Courses from "./Components/Courses";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -25,6 +26,15 @@ function App() {
                 <>
                   {/* <Navbar /> */}
                   <Home />
+                </>
+              }
+            />
+            <Route
+              path="/about"
+              element={
+                <>
+                  {/* <Navbar /> */}
+                  <Form />
                 </>
               }
             />

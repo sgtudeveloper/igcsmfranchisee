@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef, useContext } from "react";
+import React, { useState, useEffect, useRef, useContext, memo } from "react";
 import BlogContext from "../Context/BlogContext";
 
-export default function Contact() {
+function Contact() {
   const { states } = useContext(BlogContext);
   const [showForm, setShowForm] = useState(false);
   const formRef = useRef(null);
@@ -196,8 +196,8 @@ export default function Contact() {
                     <div className="col-12">
                       <div className="d-grid">
                         <button
-                          className="btn btn-primary btn-lg"
-                          type="submit"
+                          className="btn btn-primary btn-lg mt-4"
+                          type=""
                         >
                           Submit
                         </button>
@@ -213,3 +213,5 @@ export default function Contact() {
     </>
   );
 }
+
+export default  memo(Contact)
