@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import nsdc from "../Asset/Certifications/NSDC.png";
 import skillindia from "../Asset/Certifications/skill_india.png";
 import g20 from "../Asset/Certifications/g20.png";
@@ -11,15 +11,13 @@ import banner0 from "../Asset/Banner/Banner0.jpg";
 import banner1 from "../Asset/Banner/Banner1.jpg";
 import banner2 from "../Asset/Banner/Banner2.jpg";
 import banner3 from "../Asset/Banner/Banner3.jpg";
+import banner4 from "../Asset/Banner/77777.jpg";
 import ministries from "../Asset/ministries.png";
 import Blog from "./Blog";
-import BlogContext from "../Context/BlogContext"
-
-
+import BlogContext from "../Context/BlogContext";
 
 export default function Home() {
-
-  const {news} = useContext(BlogContext)
+  const { news } = useContext(BlogContext);
 
   return (
     <>
@@ -32,11 +30,20 @@ export default function Home() {
           <div className="carousel-item active">
             <img
               className="d-block w-100"
+              src={banner4}
+              alt="Fourth slide"
+              height={"400px"}
+            />
+          </div>
+
+          {/* <div className="carousel-item active">
+            <img
+              className="d-block w-100"
               src={banner0}
               alt="First slide"
               height={"400px"}
             />
-          </div>
+          </div> */}
           <div className="carousel-item">
             <img
               className="d-block w-100"
@@ -45,14 +52,14 @@ export default function Home() {
               height={"400px"}
             />
           </div>
-          <div className="carousel-item">
+          {/* <div className="carousel-item">
             <img
               className="d-block w-100"
               src={banner2}
               alt="Third slide"
               height={"400px"}
             />
-          </div>
+          </div> */}
           <div className="carousel-item">
             <img
               className="d-block w-100"

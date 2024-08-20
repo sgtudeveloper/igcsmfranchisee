@@ -23,6 +23,12 @@
 .logoimg img {
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
+}
+
+.cardcourse img {
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
 }
 
@@ -652,6 +658,7 @@ a:hover {
   
   .card__content {
     transition: transform 0.7s ease-in-out; /* Adjust the duration as needed */
+    background-color: #0394ee;
 }
 
 .cardcourse:hover .card__content {
@@ -661,8 +668,10 @@ a:hover {
 
   .card__title {
     margin: 0;
-    font-size: 24px;
-    color: #333;
+    font-size: 20px;
+    color: #000000e0;
+    text-transform: capitalize;
+    font-family: sans-serif;
     font-weight: 700;
   }
   
@@ -673,7 +682,7 @@ a:hover {
   .card__description {
     margin: 10px 0 0;
     font-size: 14px;
-    color: #777;
+    color: #ffffff;
     line-height: 1.4;
   }
   
