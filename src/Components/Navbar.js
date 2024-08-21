@@ -122,7 +122,7 @@ export default function Navbar() {
 
       {/* WhatsApp Icon */}
       <a
-        href="https://wa.me/919818841248" // Replace with your WhatsApp number
+        href="https://wa.me/919818841248?text=Hello,%20I%20want%20become%20IGCSM%20Partner.%20Please%20share%20your%20services."  
         className="whatsapp_float sticky-icon"
         target="_blank"
         rel="noopener noreferrer"
